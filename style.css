@@ -1,0 +1,150 @@
+body {
+  background-color: #161922;
+  background-image: url(img/back.svg);
+  font-family: 'Bebas Neue', cursive;
+  background-repeat: no-repeat;
+}
+
+#base {
+  width: 1100px;
+  height: 1520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#base_img {
+  width: 1100px;
+}
+
+#cont_1 {
+  margin: 50px 0px;
+}
+
+#cont_3 {
+  margin-top: 50px;
+  display: flex;
+  width: 508px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  transition: 100ms;
+  justify-content: space-around;
+}
+
+#cont_text {
+  margin-top: 50px;
+  width: 508px;
+  color: #3dbde1;
+  text-align: center;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#prof_but {
+  background-repeat: no-repeat;
+  background-image: url(img/profile.svg);
+  width: 200px;
+  height: 213px;
+}
+
+#prof_but:hover {
+  background-image: url(img/profile_akt.svg);
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 223px;
+  transition: 100ms;
+}
+
+#serv_but {
+  background-repeat: no-repeat;
+  background-image: url(img/servers.svg);
+  width: 200px;
+  height: 213px;
+}
+
+#serv_but:hover {
+  background-image: url(img/servers_akt.svg);
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 223px;
+  transition: 100ms;
+}
+
+#wiki_but {
+  background-repeat: no-repeat;
+  background-image: url(img/wiki.svg);
+  width: 200px;
+  height: 213px;
+}
+
+#wiki_but:hover {
+  background-image: url(img/wiki_akt.svg);
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 223px;
+  transition: 100ms;
+}
+
+#shop_but {
+  background-repeat: no-repeat;
+  background-image: url(img/shop.svg);
+  width: 200px;
+  height: 213px;
+}
+
+#shop_but:hover {
+  background-image: url(img/shop_akt.svg);
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 223px;
+  transition: 100ms;
+}
+
+#menu_img {
+  display: block;
+  width: 207px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  transition: 100ms;
+}
+
+#menu_base {
+  height: 210px;
+  width: 904px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tick {
+  background-image: url(img/tick.svg);
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 82px;
+  transition: 100ms;
+}
+
+#form {
+  background-image: url(img/form.svg);
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 82px;
+  transition: 100ms;
+}
+
+#tick:hover {
+  background-image: url(img/tick_akt.svg);
+  background-repeat: no-repeat;
+  transform: rotate(-5deg);
+  transition: 100ms;
+}
+
+#form:hover {
+  background-image: url(img/form_akt.svg);
+  background-repeat: no-repeat;
+  transition: 100ms;
+}
